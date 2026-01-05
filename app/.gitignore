@@ -1,0 +1,66 @@
+# Dart / Flutter
+.dart_tool/
+.packages
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+
+# Environment variables
+.env
+
+# Dependency lock (commit pubspec.lock only for apps, not for packages)
+# pubspec.lock
+
+# Android
+**/android/.gradle/
+**/android/local.properties
+**/android/app/google-services.json
+**/android/key.properties
+**/android/captures/
+**/android/*.keystore
+
+# iOS
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+# macOS
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+
+# Windows
+**/windows/flutter/ephemeral/
+
+# Linux
+**/linux/flutter/ephemeral/
+
+# Web
+**/web/.dart_tool/
+
+# IDE / Editors
+.vscode/
+.idea/
+*.iml
+
+# Logs / Misc
+*.log
+*.tmp
+*.swp
+
+# Firebase
+*.plist
+
+# Coverage
+coverage/
+
+# Generated files
+generated_plugin_registrant.dart
